@@ -5,10 +5,6 @@ import ReactMultiselect from '../../lib/index';
 
 class App extends Component {
 
-  click() {
-    alert('Roger that !');
-  }
-
   render() {
     let props = {
       choices: [

@@ -31,8 +31,7 @@
     "react-dom": "^0.14"
   },
   "peerDependencies": {
-    "react": "^0.14",
-    "react-dom": "^0.14"
+    "react": "^0.14"
   },
   "tags": [
     "react",
