@@ -1,7 +1,7 @@
 {
   "name": "react-multiselect",
-  "version": "0.0.0",
-  "description": "react component",
+  "version": "1.0.0",
+  "description": "simple search + multi-selection",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
@@ -15,23 +15,35 @@
   "scripts": {
     "test": "rackt test",
     "test-chrome": "./node_modules/.bin/testem -l Chrome",
-    "start": "rackt server"
+    "start": "rackt server",
+    "readme": "node-readme"
   },
-  "authors": [
-    ""
-  ],
+  "author": {
+    "name": "Julien Bouquillon",
+    "email": "julien@bouquillon.com",
+    "url": "http://github.com/revolunet"
+  },
   "license": "MIT",
   "devDependencies": {
+    "node-readme": "0.1.9",
     "rackt-cli-revolunet": "^0.5.10",
-    "react": "^0.14"
+    "react": "^0.14",
+    "react-dom": "^0.14"
   },
   "peerDependencies": {
-    "react": "^0.14"
+    "react": "^0.14",
+    "react-dom": "^0.14"
   },
   "tags": [
-    ""
+    "react",
+    "select",
+    "multi-select",
+    "search"
   ],
   "keywords": [
-    ""
+    "react",
+    "select",
+    "multi-select",
+    "search"
   ]
 }

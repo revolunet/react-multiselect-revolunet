@@ -10,10 +10,43 @@ class App extends Component {
   }
 
   render() {
+    let props = {
+      choices: [
+        {
+          text: 'Paris',
+          value: 'PAR'
+        },{
+          text: 'New York',
+          value: 'NYC'
+        },{
+          text: 'London',
+          value: 'LDN'
+        }, {
+          text: 'Marrakech',
+          value: 'MRK'
+        }, {
+          text: 'Singapour',
+          value: 'SNG'
+        }, {
+          text: 'Bangkok',
+          value: 'BKK'
+        }, {
+          text: 'Mirleft',
+          value: 'MIR'
+        }, {
+          text: 'Shenzen',
+          value: 'SHE'
+        }, {
+          text: 'Los Angeles',
+          value: 'LA'
+        }
+      ],
+      checked: ['LDN', 'PAR']
+    }
     return (
       <div className='example'>
         <h1>react-multiselect</h1>
-        <ReactMultiselect click={ this.click } name='Click me'/>
+        <ReactMultiselect { ...props }/>
       </div>
     );
   }
