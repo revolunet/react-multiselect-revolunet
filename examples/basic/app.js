@@ -1,5 +1,5 @@
-import React, { Component } from 'React';
-import ReactDOM from 'React-dom';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
 import ReactMultiselect from '../../lib/index';
 
