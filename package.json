@@ -1,6 +1,6 @@
 {
   "name": "react-multiselect-revolunet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simple search + multi-selection",
   "main": "./lib/index.js",
   "repository": {
