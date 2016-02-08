@@ -1,7 +1,7 @@
 {
   "name": "react-multiselect-revolunet",
   "version": "1.0.5",
-  "description": "simple search + multi-selection",
+  "description": "simple search + multi-selection react widget",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
