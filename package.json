@@ -1,0 +1,37 @@
+{
+  "name": "react-multiselect",
+  "version": "0.0.0",
+  "description": "react component",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "homepage": "",
+  "bugs": "/issues",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "rackt test",
+    "test-chrome": "./node_modules/.bin/testem -l Chrome",
+    "start": "rackt server"
+  },
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "rackt-cli-revolunet": "^0.5.10",
+    "react": "^0.14"
+  },
+  "peerDependencies": {
+    "react": "^0.14"
+  },
+  "tags": [
+    ""
+  ],
+  "keywords": [
+    ""
+  ]
+}
