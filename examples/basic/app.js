@@ -3,7 +3,22 @@ import ReactDOM from 'react-dom';
 
 import ReactMultiselect from '../../lib/index';
 
+let defaultSelection = ['LDN', 'PAR'];
+
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      selection: defaultSelection
+    }
+  }
+
+  onChange = selection => {
+    this.setState({
+      selection: selection
+    })
+  }
 
   render() {
     let props = {
@@ -37,11 +52,13 @@ class App extends Component {
           value: 'LA'
         }
       ],
-      checked: ['LDN', 'PAR']
+      checked: defaultSelection,
+      onChange: this.onChange
     }
     return (
       <div className='example'>
         <h1>react-multiselect</h1>
+        <h2>selected: { this.state.selection.join(', ') }</h2>
         <ReactMultiselect { ...props }/>
       </div>
     );
