@@ -5,9 +5,9 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": ".git"
+    "url": "http://github.com/revolunet/react-multiselect-revolunet.git"
   },
-  "homepage": "",
+  "homepage": "http://github.com/revolunet/react-multiselect-revolunet",
   "bugs": "/issues",
   "directories": {
     "example": "examples"
