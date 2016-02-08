@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/react-multiselect-revolunet.svg) ![license](https://img.shields.io/npm/l/react-multiselect-revolunet.svg) ![github-issues](https://img.shields.io/github/issues/revolunet/react-multiselect-revolunet.svg)  ![Circle CI build status](https://circleci.com/gh/revolunet/react-multiselect-revolunet.svg?style=svg)
 
-simple search + multi-selection
+simple search + multi-selection react widget
 
 ![nodei.co](https://nodei.co/npm/react-multiselect-revolunet.png?downloads=true&downloadRank=true&stars=true)
 
