@@ -1,16 +1,16 @@
-# react-multiselect
+# react-multiselect-revolunet
 
-![npm](https://img.shields.io/npm/v/react-multiselect.svg) ![license](https://img.shields.io/npm/l/react-multiselect.svg) ![github-issues](https://img.shields.io/github/issues/.git.svg)  ![Circle CI build status](https://circleci.com/gh/.git.svg?style=svg)
+![npm](https://img.shields.io/npm/v/react-multiselect-revolunet.svg) ![license](https://img.shields.io/npm/l/react-multiselect-revolunet.svg) ![github-issues](https://img.shields.io/github/issues/.git.svg)  ![Circle CI build status](https://circleci.com/gh/.git.svg?style=svg)
 
 simple search + multi-selection
 
-![nodei.co](https://nodei.co/npm/react-multiselect.png?downloads=true&downloadRank=true&stars=true)
+![nodei.co](https://nodei.co/npm/react-multiselect-revolunet.png?downloads=true&downloadRank=true&stars=true)
 
 ![demo](./demo.gif)
 
 ## Install
 
-`npm install --save react-multiselect`
+`npm install --save react-multiselect-revolunet`
 
 ## Usage
 
